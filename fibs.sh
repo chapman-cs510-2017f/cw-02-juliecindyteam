@@ -1,9 +1,9 @@
 #!/bin/bash
 echo -n "Enter a positive number :"
 read Num
-if [$Num < 1]
+if [ $Num -lt 1 ];
 then
-    echo
+    echo "Must be positive number."
     exit 1
 else
     f1=1
