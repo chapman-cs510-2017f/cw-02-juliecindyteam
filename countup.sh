@@ -4,6 +4,7 @@
 #CS 510 Computing for Scientists
 #CW 2
 #!/bin/bash
+### The #! line should always be the FIRST line of the file
 
 if [ $1 -gt 0 ]; 
 then
