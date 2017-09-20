@@ -5,6 +5,9 @@
 #CW 2
 #!/bin/bash
 echo -n "Enter a positive number: "
+
+### Rather than "read", use command line arguments. e.g., $1 is the first command line argument
+
 read number
 if [ $number  -lt 1 ];
 then
